@@ -1,8 +1,16 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     padding: 0;
     margin: 0;
     background:#414345;
-
+    -ms-overflow-style: none;
+    scrollbar-width: none;  
+    overflow-x:hidden;
+}
+body::-webkit-scrollbar {
+    display: none;
 }
 .loading{
     width:155px;height:155px;border-radius:150px;border:10px solid #fff;border-top-color: rgba(0,0,0,0.3);position:absolute;top:50%;left:50%;margin-top:-80px;margin-left:-80px;animation:loading 1.2s linear infinite;-webkit-animation:loading 1.2s linear infinite;box-sizing:border-box;
@@ -28,7 +36,6 @@ a{
     color:#23527C;
 }
 .section{
-    position: absolute;
     height: 100vh;
     width: 100vw;
     padding:10vh auto;
@@ -410,7 +417,16 @@ input:checked + .slide-container .nav label { display: block; }
 	display: inline-block;
 	background-color: rgba(0, 0, 0, 0.6);
 }
-
+.nav_dots_page .nav-dot {
+	top: -5px;
+	width: 15px;
+	height: 15px;
+	margin: 0 4px;
+	position: relative;
+	border-radius: 100%;
+	display: inline-block;
+	background-color: rgba(0, 0, 0, 0.6);
+}
 .nav-dots .nav-dot:hover {
 	cursor: pointer;
 	background-color: rgba(0, 0, 0, 0.8);

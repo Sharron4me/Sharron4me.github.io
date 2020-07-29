@@ -8,27 +8,27 @@
     <meta name="viewport" content="width=device-width,height=device-height, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <link rel="stylesheet" href="css/aoj.css" />
-      <script>
-        function loaded(d){
+    <script>
+        function display(){
         var i;
         var t;
         for(i=1;i<5;i++){
             console.log('section_'+i);
             t=document.getElementById('section_'+i);
-            t.style.display="none";
+            t.style.display="block";
         }
-        t=document.getElementById('section_'+d);
-        t.style.display="block";
+        t=document.getElementById('loader');
+            t.style.display="none";    
         }
-      </script>
+    </script>
     <title>
         Mohammad Ummair
         
     </title>
 </head>
 
-<body onload='loaded(1)'>
-    <div class="loading"></div>
+<body onload="display()">
+    <div class="loading" id="loader"></div>
     <div class="download_resume">
         <span class="fa-stack fa-2x">
             <a href="resume/Resume.pdf" target="blank">
@@ -37,7 +37,7 @@
             </a>
         </span>
     </div>
-    <div class="section" id="section_1">
+    <div class="section" id="section_1" onscroll="">
         <div class="head">
             <div class="header">
                 <span class="site_heading">
@@ -360,18 +360,19 @@
     </div>
     <div class='nav_dots_page'>
         <li class="nav-dots">
-                        <label onclick="loaded(1)" class="nav-dot" ></label>
+                        <a href="#section_1"><label class="nav-dot" ></label></a>
                         <br>
-                       <label onclick="loaded(2)" class="nav-dot" ></label>
+                        <a href="#section_2"><label  class="nav-dot" ></label></a>
                         <br>  
-                       <label onclick="loaded(3)" class="nav-dot" ></label>
+                        <a href="#section_3"><label  class="nav-dot" ></label></a>
                         <br>  
-                        <label onclick="loaded(4)" class="nav-dot" ></label>
+                        <a href="#section_4"><label  class="nav-dot" ></label></a>
         </li>
     </div>
     <script src="js/aoj.js">
     </script>
     <script>
+       
         AOS.init();
     </script>
 </body>
