@@ -1,3 +1,3 @@
 # Sharron4me.github.io
 
-Visit me at http://mohdummair.me/
+Visit me @ http://mohdummair.me/
