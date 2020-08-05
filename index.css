@@ -21,11 +21,20 @@ body::-webkit-scrollbar {
 #section_1{
     background-color: #6f00ff;
 }
+.top_nav{
+    background: white;
+    position:fixed;
+    width: 100vw;
+}
 .webiste_name{
     font-family: 'lobster';
     font-size: 33px;
     display: inline-block;
     margin: 1vh 2vw;
+    color:#6f00ff;
+}
+.webiste_name a{
+    text-decoration: none;
     color:#6f00ff;
 }
 .navs{
