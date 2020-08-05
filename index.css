@@ -274,3 +274,72 @@ body::-webkit-scrollbar {
     font-size: 2vw;
     color: #C69DFC;
 }
+@media only screen and (max-width: 600px) {
+    .section{
+        overflow:scroll;
+        height:auto;
+        width:100vw;
+    }
+    .navs{
+        display: none;
+    }
+    #section_3{
+        padding:2vw 0;
+    }
+    #section_2 .skill_box{
+    margin:10vh auto;
+    }
+    #section_2 .skill_bars{
+        display: none;
+    }
+    #section_2 .skill_links{
+        width: 80vw;
+    }
+    .company{
+        width: 90vw;
+    }
+    .image_company img{
+        width: 90vw; 
+        height: 30vh;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .work{
+        width:80vw;
+        margin: auto;
+    }
+    .work .title{
+        font-size: 36px;
+        line-height: 40px;
+        margin: 22vh 0 5vh 0 ;
+        padding: 0;
+    }
+    .work .subtitle{
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .work img{
+        width: 50vw;
+        height: 60vw;
+    }
+    .footer i{
+    padding:2vh;
+    margin: 15vh 2vw;
+    font-size: 2vh;
+    border:solid 1px white;
+    border-radius: 50%;
+    cursor: pointer;
+    }
+    .footer a{
+        color: white;
+    }
+    .foot{
+        color: #C69DFC;
+    }
+    .foot i{
+        margin: 2vh;
+        font-size: 2vh;
+        color: #C69DFC;
+    }
+}
