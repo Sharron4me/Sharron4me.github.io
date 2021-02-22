@@ -3,7 +3,7 @@ html{
 }
 body{
     -ms-overflow-style: none;
-    scrollbar-width: none;  
+    scrollbar-width: none;
     overflow-x:hidden;
     background: white;
     padding: 0;
@@ -83,7 +83,7 @@ body::-webkit-scrollbar {
 }
 .about_me{
     font-family: 'Lato', sans-serif;
-    color:#e6e6e6; 
+    color:#e6e6e6;
     width:50vw;
     text-align: center;
     margin:auto;
@@ -187,8 +187,8 @@ body::-webkit-scrollbar {
 .gradient-button{
     background-image: linear-gradient(to right, #7474BF 0%, #348AC7 51%, #7474BF 100%)
 }
-.gradient-button:hover { 
-    background-position: right center; 
+.gradient-button:hover {
+    background-position: right center;
 }
 .skill_links{
     width:40%;
@@ -200,6 +200,14 @@ body::-webkit-scrollbar {
     background-color: #6f00ff;
     text-align: center;
     margin: auto;
+}
+#section_3 .company{
+  display: inline-block;
+  margin: 0vh 2vw;
+}
+#section_3 .image_company img{
+  width: 25vw;
+  height: 30vh;
 }
 #section_3 .title{
     color: white;
@@ -218,7 +226,7 @@ body::-webkit-scrollbar {
     border-radius: 10px;
 }
 .image_company img{
-    width: 30vw; 
+    width: 30vw;
     height: 30vh;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -241,7 +249,7 @@ body::-webkit-scrollbar {
 }
 #section_4 .title{
     margin: 12vh 0 1vh 0 ;
-    
+
 }
 #section_4 .company{
     margin:10vh 1vw;
@@ -254,7 +262,7 @@ body::-webkit-scrollbar {
 /*section5*/
 #section_5{
     text-align: center;
-    background: #6f00ff;  
+    background: #6f00ff;
     font-weight: bolder;
     letter-spacing: 2px;
     font-family: 'Lato',sans-serif;
@@ -295,6 +303,9 @@ body::-webkit-scrollbar {
     #section_3{
         padding:2vw 0;
     }
+    #section_3 .Company{
+      margin:2vh 0;
+    }
     #section_2 .skill_box{
     margin:10vh auto;
     }
@@ -308,7 +319,7 @@ body::-webkit-scrollbar {
         width: 90vw;
     }
     .image_company img{
-        width: 90vw; 
+        width: 90vw;
         height: 30vh;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
