@@ -206,8 +206,8 @@ body::-webkit-scrollbar {
   margin: 0vh 2vw;
 }
 #section_3 .image_company img{
-  width: 25vw;
-  height: 30vh;
+  width: 20vw;
+  height: 25vh;
 }
 #section_3 .title{
     color: white;
@@ -219,12 +219,19 @@ body::-webkit-scrollbar {
     text-align: center;
     padding: 2vh 0 5vh 0 ;
 }
-.company{
+#section_3 .company{
+    width: 25vw;
+    margin: auto;
+    background: white;
+    border-radius: 10px;
+}
+#section_4 .company{
     width: 30vw;
     margin: auto;
     background: white;
     border-radius: 10px;
 }
+
 .image_company img{
     width: 30vw;
     height: 30vh;
